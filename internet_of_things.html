@@ -7,20 +7,60 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body class="col-md-6" style="background-color: aliceblue">
+<body class="col-md-6 position-absolute top-0 start-50 translate-middle-x" style="background-color: aliceblue">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <div class="fw-light text-justify text-primary text-opacity-60">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li> -->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Postive Impacts
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/economics.html">Economics</a></li>
+                            <li><a class="dropdown-item" href="/internet_of_things.html">Internet of Things</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item" href="/communication.html">Communications</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- <div class="fw-light text-justify text-primary text-opacity-60">
     <h4>Index</h4>
     <ul>
       <li><a href="/index.html">Home</a></li>
       <li><a href="/internet_of_things.html">Internet of Things</a></li>
       <li><a href="/economics.html">Economical Impacts</a></li>
     </ul>
-    </div>
+    </div> -->
 
+    <div class="container-sm">
+    <figure class="text-center">
     <h1 class="text-primary fw-bold">Internet Of Things (IoT)</h1>
-    <img src="iot-network-1024x666.png" class="img-fluid; rounded-circle mt-4" alt="Internet of Things image">
+    <img src="iot-network-1024x666.png" class="img-fluid; rounded-circle mt-4" alt="Internet of Things image" style="width: 85%;">
 
     <div class="fw-light text-justify" style="font-size: large;">
     <p>The Internet of Things (IoT) is the network of real-world objects, embedded with sensors and software, that are able to transmit and receive data over the Internet.</p>
@@ -28,6 +68,8 @@
     <p>These devices are constantly processing the data they receive from their sensors, and can transmit this data over the Internet to various locations, such as the smart object's users or a server for further processing.</p>
     <p>For example, smart home security systems are always processing the images taken by the camera by using machine learning to detect any suspicious activity in its view. Because it is connected to the Internet, the security system can automatically send a notification to the user (the home owner) to alert them of the suspicious activity.</p>
     <p>This allows for the home owner to respond much quicker than if the video was simply stored in secondary storage to be reviewed upon their return, thereby greatly improving the security of the user's home.</p>
+    </div>
+    </figure>
     </div>
 </body>
 
